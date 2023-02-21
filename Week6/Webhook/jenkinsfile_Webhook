@@ -14,5 +14,11 @@ pipeline {
                 sh 'python3  Week6/Webhook/main.py'
             }
         }
+        stage('test1') {
+            steps {
+                echo 'Hello World'
+            }
+        }
+        
     }
 }
